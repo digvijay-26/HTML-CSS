@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>11</title>
+    <style>
+      body {
+        background: #f0f0f0;
+        padding: 40px;
+      }
+
+      .card {
+        width: 420px;
+        padding: 25px;
+        border-radius: 10px;
+        border: 2px solid #333;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.03);
+      }
+
+      /* Individual card positions + colors */
+      .card1 {
+        background: #c3ecff;
+        left: 50px;
+        top: 40px;
+        z-index: 1;
+      }
+
+      .card2 {
+        background: #e9892d;
+        left: 180px;
+        top: 120px;
+        z-index: 2;
+      }
+
+      .card3 {
+        background: #53e652;
+        left: 310px;
+        top: 200px;
+        z-index: 3;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .card img {
+        display: block;
+        width: 160px;
+        margin: 20px auto;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card card1">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+    </div>
+
+    <div class="card card2">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+    </div>
+
+    <div class="card card3">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+
+      <img src="3.png" alt="Food image" />
+    </div>
+  </body>
+</html>

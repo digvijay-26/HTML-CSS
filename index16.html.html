@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>16</title>
+  </head>
+  <style>
+    .y {
+      font-style: italic;
+      text-decoration: underline;
+      font-weight: bold;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      color: blueviolet;
+      letter-spacing: 5px;
+    }
+    .card {
+      width: 300px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+      background-color: #f9f9f9;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card h2 {
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.5;
+      overflow-x: hidden; /* hide horizontal scrollbar */
+      overflow-y: auto; /* enable vertical scrolling */
+      white-space: normal; /* allow wrapping so vertical scrolling is used */
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 8px;
+      scrollbar-width: thin; /* Firefox */
+      scrollbar-color: #bbb transparent; /* Firefox */
+      max-height: 120px; /* limit height so vertical scrollbar appears when content is long */
+    }
+
+    /* WebKit scrollbar styling (horizontal) */
+    .card p::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    .card p::-webkit-scrollbar-track {
+      background: transparent;
+      border-radius: 10px;
+    }
+
+    .card p::-webkit-scrollbar-thumb {
+      background: #bbb;
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <p class="y">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ullam
+      cumque recusandae itaque accusantium cum est dolores praesentium,
+      molestias totam impedit dicta quisquam quis excepturi autem repudiandae
+      suscipit laborum consequuntur!
+    </p>
+    <div class="card">
+      <img src="cake.png" alt="" />
+      <h2>Chocolate Cake</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed
+        eius numquam assumenda quae delectus quas voluptatibus repellendus,
+        omnis obcaecati voluptas neque tempore molestiae dolore minus eligendi
+        optio. Nesciunt, atque. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Explicabo sed eius numquam assumenda quae delectus
+        quas voluptatibus repellendus, omnis obcaecati voluptas neque tempore
+        molestiae dolore minus eligendi optio. Nesciunt, atque. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Explicabo sed eius numquam
+        assumenda quae delectus quas voluptatibus repellendus, omnis obcaecati
+        voluptas neque tempore molestiae dolore minus eligendi optio. Nesciunt,
+        atque.
+      </p>
+    </div>
+  </body>
+</html>

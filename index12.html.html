@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12</title>
+  </head>
+  <style>
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 10px;
+    }
+
+    .navbar-nav a {
+      padding: 14px 20px;
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Keep the first link (brand) on the left and push others to the right */
+    .navbar-nav a:first-child {
+      margin-right: auto;
+      font-weight: bold;
+    }
+
+    .yes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: start;
+      padding: 20px;
+    }
+
+    .yes .left {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .yes .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .yes .right img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+  <body>
+    <div class="navbar-nav">
+      <a href="#">RESTURENT</a>
+      <a href="#">Home</a>
+      <a href="#">Address</a>
+      <a href="#">Contact</a>
+    </div>
+    <section class="yes">
+      <div class="left">
+        <h1>
+          Lorem ipsum dolor sit amet,
+          <br />
+          consectetur adipisicing.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae
+          inventore distinctio porro. Unde commodi, fugiat atque consectetur vel
+          dignissimos, doloremque tempora id illum recusandae eveniet totam
+          expedita tempore magnam maiores perspiciatis placeat quisquam dolorem
+          quos? Et vel repellendus iste sint excepturi! Tempora alias
+          consequuntur iste cupiditate libero neque fugit quas, pariatur aliquam
+          aut molestiae, quia quisquam accusantium omnis vitae.
+        </p>
+      </div>
+      <div class="right">
+        <img src="Screenshot 2025-11-22 113212.png" alt="screenshot" />
+      </div>
+    </section>
+  </body>
+</html>

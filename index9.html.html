@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9</title>
+  </head>
+  <style>
+    body {
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333366;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #333366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #555588;
+    }
+  </style>
+  <body>
+    <h1>My Guest Book</h1>
+    <p>Please sign my guest Book!</p>
+
+    <form>
+      <p>
+        <strong>What is your name?</strong><br />
+        <input
+          type="text"
+          name="firstname"
+          placeholder="First name"
+          size="40"
+        />
+      </p>
+
+      <p>
+        <strong>What is your Email address?</strong><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email Address"
+          size="40"
+        />
+      </p>
+
+      <p>
+        <strong>Please check all that apply!</strong><br />
+        <input type="checkbox" /> I really want your website.<br />
+        <input type="checkbox" /> One of the best sites I've seen.<br />
+        <input type="checkbox" /> I sure wish my site looked as good as
+        yours.<br />
+        <input type="checkbox" /> I have no taste and I'm pretty dense, so your
+        site didn't do much for me.<br />
+      </p>
+
+      <p>
+        <strong>Choose the one thing you love best about my web site:</strong
+        ><br />
+        <input type="radio" name="best" /> That gorgeous picture of you.<br />
+        <input type="radio" name="best" /> All the beautiful pictures of your
+        cats.<br />
+        <input type="radio" name="best" /> The inspiring recap of your suburban
+        childhood.<br />
+        <input type="radio" name="best" /> The detailed list of all your Elvis
+        memorabilia.<br />
+      </p>
+
+      <p>
+        <strong
+          >If my web site were a book, how many copies would it sell?</strong
+        ><br />
+        <select size="3">
+          <option>Millions, for sure.</option>
+          <option>100,000+ (would be Oprah's favorite)</option>
+          <option>Thousands (an under-appreciated classic)</option>
+        </select>
+      </p>
+
+      <p>
+        <strong>How can I improve my web site?</strong><br />
+        <select>
+          <option>Couldn't be better.</option>
+          <option>Add more content.</option>
+          <option>Improve design.</option>
+          <option>More frequent updates.</option>
+        </select>
+      </p>
+
+      <p>
+        <strong>Feel free to type more praise, gift offers, etc. below:</strong
+        ><br />
+        <textarea rows="5" cols="70"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Click Here to Submit" />
+        <input type="reset" value="Erase and Start Over" />
+      </p>
+    </form>
+  </body>
+</html>
